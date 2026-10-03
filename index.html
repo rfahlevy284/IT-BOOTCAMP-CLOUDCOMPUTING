@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+
+    <!-- Tulisan ini muncul di tab browser sebagai judul halaman -->
+    <title>Innovation Labs - Company Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font dari Google. Link-nya panjang, tidak perlu dihafal :) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- ============================= HEADER / NAVBAR ============================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-mark">CC</span>
+        <span class="brand-text">
+          <strong>Cloud Computing</strong>
+          <small>Kelompok 5 &middot; IT Bootcamp HIMTIKA</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#hero">Beranda</a>
+        <a href="#poster">Poster STBI</a>
+        <a href="#tentang" >Tentang Kami</a>
+        <a href="#tim">Tim</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================= HERO SECTION ============================= -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <span class="chip">Kelompok 5 &bull; IT Bootcamp HIMTIKA Unsika</span>
+      <h1>Cloud Computing</h1>
+      <p class="hero-sub" style="font-size: 1.6rem; line-height: 1.5rem;">
+        Skala cepat tanpa batas
+      </p>
+      <div class="hero-actions">
+        <a href="#poster" class="btn btn-primary">Lihat Poster STBI</a>
+        <a href="#tentang" class="btn btn-ghost">Baca Filosofi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= PENYELENGGARA ============================= -->
+  <section class="partners" aria-label="Penyelenggara acara">
+    <div class="container partners-inner">
+      <div class="partners-logos">
+
+        <div class="partner">
+          <img src="assets/logo/logo_itb.png" alt="Logo IT Bootcamp" onerror="this.remove()" />
+          <span class="partner-text">
+            <small>Kegiatan</small>
+            <strong>IT Bootcamp</strong>
+          </span>
+        </div>
+
+        <div class="partner">
+          <img src="assets/logo/himtika.png" alt="Logo HIMTIKA Unsika" onerror="this.remove()" />
+          <span class="partner-text">
+            <small>Diselenggarakan oleh</small>
+            <strong>HIMTIKA Unsika</strong>
+          </span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= POSTER STBI (WAJIB) ============================= -->
+  <section id="poster" class="section">
+    <div class="container poster-grid">
+      <div class="poster-image">
+        <img src="assets/poster/poster.jpeg" alt="Poster STBI Kelompok 29"
+          onerror="this.parentElement.classList.add('img-fallback')" />
+      </div>
+      <div class="poster-info">
+        <span class="eyebrow">Poster Resmi Acara</span>
+        <h2>Poster STBI Kelompok Kami</h2>
+        <p>
+          Poster ini menjelaskan peranan Front-end developer dan Back-end developer dalam membangun sebuah aplikasi. Front-end developer bertanggung jawab untuk merancang antarmuka pengguna (UI) dan pengalaman pengguna (UX) yang menarik dan mudah digunakan. Mereka menggunakan bahasa pemrograman seperti HTML, CSS, dan JavaScript untuk membuat tampilan visual yang interaktif dan responsif.
+        </p>
+        <p>
+          Bagi kami, Cloud Computing bukanlah sekadar nama, melainkan nama yang penuh semangat, pantang menyerah, dan pemersatu kelompok yang baik
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= TENTANG / FILOSOFI NAMA (WAJIB) ============================= -->
+  <section id="tentang" class="section section-muted">
+    <div class="container tentang-grid">
+      <div class="tentang-text">
+        <span class="eyebrow">Filosofi Nama</span>
+        <h2>Kenapa Kami Memilih Nama Ini?</h2>
+        <p>
+          Nama Cloud Computing kami pilih karena mencerminkan semangat kelompok kami yang ingin terus berkembang, berinovasi, dan memberikan solusi yang efisien. Cloud Computing adalah teknologi yang memungkinkan penyimpanan dan pengolahan data secara online, yang mencerminkan visi kami untuk selalu berada di garis depan dalam dunia teknologi.
+        </p>
+        <p>
+          Dalam perjalanan di IT Bootcamp ini, kami memegang prinsip tersebut. Setiap baris kode yang error, perdebatan menentukan layout UI/UX, atau tantangan menerapkan clean architecture adalah bagian dari proses penelitian kami. Innovation Labs adalah komitmen tim kami untuk tidak takut membedah masalah, terus menguji batas kemampuan diri, dan melahirkan solusi yang efisien serta profesional.
+        </p>
+      </div>
+      <div class="tentang-visual">
+        <div class="monogram">CC</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= TIM: KABING + ANGGOTA (WAJIB) ============================= -->
+  <section id="tim" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Struktur Tim</span>
+        <h2>Kabing &amp; Anggota Kelompok</h2>
+      </div>
+
+      <div class="team-showcase">
+        <div class="team-photo-frame">
+          <img src="assets/foto-tim/k5.jpeg" alt="Foto bersama Kabing dan seluruh anggota kelompok"
+            onerror="this.parentElement.classList.add('img-fallback')" />
+        </div>
+
+        <div class="team-names">
+          <div class="kabing-row">
+            <span class="badge-kabing">Kakak Pembimbing</span>
+            <h3>Mohammed Ali Irsyad Ginting</h3>
+          </div>
+
+          <h3 class="names-title">Anggota Kelompok</h3>
+
+          <ul class="member-list">
+            <li>Aldi Natama Harahap</li>
+            <li>Reza Fahlevy</li>
+            <li>Cinta Lu'lu il Azaliah</li>
+            <li>Aura Zasskia Syaffira</li>
+            <li>Yanda Ungsi Ramadhani</li> 
+            <li>Anya Dwi Rafailmi</li>
+            <li>Muhammad Rizky Dermawan</li>
+            <li>Rofroful Hisan Dendia </li>
+            <li>Anggara Desriyanto</li> 
+             <li>Ateela Gulfam Sukarta</li>
+             <li>Muhamad Syihabul Hayat</li>
+          
+            <li>Alman Mahdi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== GALERI KEGIATAN (OPSIONAL) ============================= -->
+  <!-- Jika masih ada waktu akan di lakukan, jika tidak tidak akan di tunjukkan -->
+  <section id="galeri" class="section section-muted">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Dokumentasi</span>
+        <h>Galeri Kelompok</h
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="assets/foto-tim/k1.jpeg" alt="Kegiatan 1" /></div>
+        <div class="gallery-item"><img src="assets/foto-tim/k2.jpeg" alt="Kegiatan 2" /></div>
+        <div class="gallery-item"><img src="assets/foto-tim/k3.jpeg" alt="Kegiatan 3" /></div>
+        <div class="gallery-item"><img src="assets/foto-tim/k4.jpeg" alt="Kegiatan 3" /></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; 2026 Cloud Computing | Kelompok 5 &middot; IT Bootcamp HIMTIKA
+        Unsika
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
